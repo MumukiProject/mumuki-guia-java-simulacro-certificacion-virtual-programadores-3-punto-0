@@ -21,7 +21,7 @@ class PaqueteProyectores {
     this.destino = destino;
   }
   public String getDestino() {
-    return this.destino
+    return this.destino;
   }
   public void setCostoEnvio(float costoEnvio) {
     this.costoEnvio = costoEnvio;
