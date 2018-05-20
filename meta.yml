@@ -1,9 +1,9 @@
 ---
-name: 2do-examen-111mil
+name: Envío de Proyectores
 locale: es
 type: learning
 beta: false
-teacher_info: 
+teacher_info: ''
 language: java
 id_format: "%05d"
 order: []
