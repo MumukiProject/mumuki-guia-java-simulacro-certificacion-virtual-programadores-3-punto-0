@@ -1,4 +1,4 @@
 
-> Implemente los métodos` getEnTransito`,
+> Implemente los métodos `getEnTransito`,
 > `setEnTransito`, `getCodPaquete` y `setCodPaquete` 
 > de la clase `PaqueteProyectores`.
