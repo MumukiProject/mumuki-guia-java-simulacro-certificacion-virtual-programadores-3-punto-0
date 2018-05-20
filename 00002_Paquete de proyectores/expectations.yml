@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: PaqueteProyectores
+  inspection: DeclaresMethod:getEnTransito
+- binding: PaqueteProyectores
+  inspection: DeclaresMethod:setEnTransito
+- binding: PaqueteProyectores
+  inspection: DeclaresMethod:getCodPaquete
+- binding: PaqueteProyectores
+  inspection: DeclaresMethod:setCodPaquete
