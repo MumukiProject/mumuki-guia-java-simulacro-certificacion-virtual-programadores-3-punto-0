@@ -6,4 +6,7 @@ beta: false
 teacher_info: ''
 language: java
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
+- 3
