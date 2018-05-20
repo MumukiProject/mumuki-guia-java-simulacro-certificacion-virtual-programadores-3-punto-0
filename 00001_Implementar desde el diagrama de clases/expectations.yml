@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: PaqueteProyectores
+  inspection: DeclaresAttribute:codPaqueteDeProyectores
+- binding: PaqueteProyectores
+  inspection: DeclaresAttribute:costoEnvio
+- binding: PaqueteProyectores
+  inspection: DeclaresAttribute:enTransito
