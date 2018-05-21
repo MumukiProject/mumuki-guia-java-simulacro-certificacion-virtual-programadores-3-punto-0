@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: GestorDePaqueteDeProyectores
+  inspection: DeclaresMethod:buscarPaqueteDeProyectores

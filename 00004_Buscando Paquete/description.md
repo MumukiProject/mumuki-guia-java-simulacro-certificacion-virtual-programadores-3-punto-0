@@ -1,0 +1,1 @@
+> Programar en Java el código del método `buscarPaqueteDeProyectores` en la clase `GestorDePaqueteDeProyectores`. El mismo recibirá por parámetro una variable llamada `codPaq` de tipo `int` y retornará el paquete correspondiente a ese código. En caso de no encontrarlo deberá retornar `null`.
