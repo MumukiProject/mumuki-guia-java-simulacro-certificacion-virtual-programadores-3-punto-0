@@ -1,4 +1,2 @@
-@Test
-public void testDescriptionExample() {
-  Assert.assertTrue(true);
-}
+---
+equal: Calcula la cantidad de paquetes de proyectores en tránsito
