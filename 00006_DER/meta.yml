@@ -1,0 +1,27 @@
+---
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: Entre las tablas PaqueteProyectores y GestorDePaquetesDeProyectores existe
+    una relación 1 a 1
+  checked: false
+- value: Entre las tablas GestorDePaquetesDeProyectores y PaqueteProyectores existe
+    una relación 1 a N
+  checked: true
+- value: Entre las tablas PaqueteProyectores y GestorDePaquetesDeProyectores existe
+    una relación N a N
+  checked: false
+- value: La clave primaria de la tabla PaqueteProyectores es GestorDePaqueteDeProyectores_
+    idGestorDePaqueteDeProyectore s
+  checked: false
+- value: La clave primaria de la tabla GestorDePaqueteDeProyectores es idGestorDePaquetes
+  checked: true
+- value: La tabla GestorDePaqueteDeProyectores no tiene clave foránea
+  checked: true
+- value: La tabla PaqueteProyectores no tiene clave foránea
+  checked: false
