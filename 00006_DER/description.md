@@ -24,6 +24,7 @@ A partir del siguiente DER
           "to": { "entity": "GestorDePaquetesDeProyectores", "column": "idGestorDePaquetes" },
           "type": "many_to_one"
         }
+      }
     },
     "gestorDePaqueteDeProyectores": {
       "idGestorDePaquetes": {
