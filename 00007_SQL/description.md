@@ -24,6 +24,7 @@ Dado el DER presentado
           "to": { "entity": "GestorDePaquetesDeProyectores", "column": "idGestorDePaquetes" },
           "type": "many_to_one"
         }
+      }
     },
     "gestorDePaqueteDeProyectores": {
       "idGestorDePaquetes": {
