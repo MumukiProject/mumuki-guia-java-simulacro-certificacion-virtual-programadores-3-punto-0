@@ -3,6 +3,6 @@ CREATE TABLE GestorDePaqueteDeProyectores (idGestorDePAquetes INTEGER PRIMARY KE
 CREATE TABLE PaqueteProyectores (codPaquete INTEGER PRIMARY KEY, 
   destino TEXT, 
   costo_envio FLOAT,
-  destinatario TEXT),
-  FOREIGN KEY (gestorDePaqueteDeProyectores_idGestorPaquetes) REFERENCES GestorDePaqueteDeProyectores(idGestorDePaquetes);
+  destinatario TEXT,
+  FOREIGN KEY (gestorDePaqueteDeProyectores_idGestorPaquetes) REFERENCES GestorDePaqueteDeProyectores(idGestorDePaquetes));
   
