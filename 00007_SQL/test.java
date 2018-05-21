@@ -1,2 +1,2 @@
 type: query
-expected: SELECT g.nombreEmpresa FROM PaqueteProyectores as p, GestorDePaqueteDeProyectores as g WHERE p.gestorDePaqueteDeProyectores_idGestorPaquetes = g.idGestorDePaquetes AND p.costo_envio > 500 AND p.destino = "Tucumán";
+expected: SELECT g.nombreEmpresa FROM paqueteProyectores p, gestorDePaqueteDeProyectores g WHERE p.gestorDePaqueteDeProyectores_idGestorPaquetes = g.idGestorDePaquetes AND p.costo_envio > 500 AND p.destino = "Tucumán";
