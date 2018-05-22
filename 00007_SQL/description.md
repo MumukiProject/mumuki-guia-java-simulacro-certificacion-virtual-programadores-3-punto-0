@@ -17,7 +17,7 @@ Dado el DER presentado
       "destinatario": {
         "type": "VARCHAR(45)"
       },
-      "gestorDePaqueteDeProyectores_idGestorPaquetes": {
+      "gestorDePaquetesDeProyectores_idGestorPaquetes": {
         "type": "Int",
         "pk": false,
         "fk": {
@@ -26,7 +26,7 @@ Dado el DER presentado
         }
       }
     },
-    "gestorDePaqueteDeProyectores": {
+    "gestorDePaquetesDeProyectores": {
       "idGestorDePaquetes": {
         "type": "Int",
         "pk": true
