@@ -9,11 +9,11 @@ public void before() {
 
 @Test
 public void el_gestor_no_tiene_paquetes() {
-  Assert.assertEquals(null, gp.buscarPaquete(1), 0.5);
+  Assert.assertEquals(null, gp.buscarPaqueteDeProyectores(1), 0.5);
 }
 
 @Test
 public void el_gestor_tiene_1_paquetes() {
   gp.agregarPaquete(pp);
-  Assert.assertEquals(2, gp.getbuscarPaquete(2).getCodPaquete(), 0.5);
+  Assert.assertEquals(2, gp.buscarPaqueteDeProyectores(2).getCodPaquete(), 0.5);
 }
