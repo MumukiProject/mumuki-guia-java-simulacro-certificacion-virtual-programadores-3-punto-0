@@ -13,6 +13,10 @@ class GestorDePaquetesDeProyectores {
     return this.nombreEmpresa;
   }
   
+  public List<PaqueteProyectores> getPaquetes() {
+    return this.paquetes;
+  }
+  
   // Implementá acá tu solución
   
 }
