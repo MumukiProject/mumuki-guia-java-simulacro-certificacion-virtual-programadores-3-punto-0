@@ -8,3 +8,5 @@ expectations:
   inspection: DeclaresAttribute:enTransito
 - binding: codPaqueteDeProyectores
   inspection: TypesAs:String
+- binding: codPaqueteDeProyectores
+  inspection: TypesAs:int
