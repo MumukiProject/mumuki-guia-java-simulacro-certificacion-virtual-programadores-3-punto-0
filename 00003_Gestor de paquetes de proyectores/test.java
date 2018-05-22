@@ -12,12 +12,7 @@ public void el_gestor_no_tiene_paquetes() {
 }
 
 @Test
-public void el_paquete_tiene_codigo_1() {
-  Assert.assertEquals(1, gp.getCodPaquete(), 0.5);
-}
-
-@Test
-public void el_paquete_tiene_codigo_5() {
-  gp.setCodPaquete(5);    
-  Assert.assertEquals(5, gp.getCodPaquete(), 0.5);
+public void el_gestor_tiene_1_paquetes() {
+  gp.agregarPaquete(new PaqueteProyectores(1, "marta", "mendoza", 2));
+  Assert.assertEquals(1, gp.getPaquetes(), 05);
 }
