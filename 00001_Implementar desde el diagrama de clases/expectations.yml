@@ -6,5 +6,5 @@ expectations:
   inspection: DeclaresAttribute:costoEnvio
 - binding: PaqueteProyectores
   inspection: DeclaresAttribute:enTransito
-- binding: PaqueteProyectores
-  inspection: DeclaresTypeSignature:codPaqueteDeProyectores:int
+- binding: codPaqueteDeProyectores
+  inspection: DeclaresTypeSignature:int
