@@ -10,3 +10,5 @@ expectations:
   inspection: TypesAs:String
 - binding: codPaqueteDeProyectores
   inspection: TypesAs:Double
+- binding: costoEnvio
+  inspection: TypesAs:int
