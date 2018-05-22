@@ -9,4 +9,4 @@ expectations:
 - binding: codPaqueteDeProyectores
   inspection: TypesAs:String
 - binding: codPaqueteDeProyectores
-  inspection: TypesAs:float
+  inspection: TypesAs:Double
