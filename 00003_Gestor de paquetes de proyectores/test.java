@@ -14,5 +14,5 @@ public void el_gestor_no_tiene_paquetes() {
 @Test
 public void el_gestor_tiene_1_paquetes() {
   gp.agregarPaquete(new PaqueteProyectores(1, "marta", "mendoza", 2));
-  Assert.assertEquals(1, gp.getPaquetes(), 05);
+  Assert.assertEquals(1, gp.getPaquetes(), 0.5);
 }
