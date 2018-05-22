@@ -8,12 +8,12 @@ public void before() {
 
 
 @Test
-public void el_gestor_no_tiene_paquetes() {
+public void el_gestor_no_tiene_paquetes_y_devuelve_null() {
   Assert.assertEquals(null, gp.buscarPaqueteDeProyectores(1), 0.5);
 }
 
 @Test
-public void el_gestor_tiene_1_paquetes() {
+public void el_gestor_tiene_1_paquete_y_lo_busca_correctamente() {
   gp.agregarPaquete(pp);
   Assert.assertEquals(2, gp.buscarPaqueteDeProyectores(2).getCodPaquete(), 0.5);
 }
