@@ -26,7 +26,7 @@ A partir del siguiente DER
         }
       }
     },
-    "gestorDePaquesteDeProyectores": {
+    "gestorDePaquetesDeProyectores": {
       "idGestorDePaquetes": {
         "type": "Int",
         "pk": true
