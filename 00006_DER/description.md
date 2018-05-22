@@ -17,7 +17,7 @@ A partir del siguiente DER
       "destinatario": {
         "type": "VARCHAR(45)"
       },
-      "gestorDePaqueteDeProyectores_idGestorPaquetes": {
+      "gestorDePaquetesDeProyectores_idGestorPaquetes": {
         "type": "Int",
         "pk": false,
         "fk": {
@@ -26,7 +26,7 @@ A partir del siguiente DER
         }
       }
     },
-    "gestorDePaqueteDeProyectores": {
+    "gestorDePaquesteDeProyectores": {
       "idGestorDePaquetes": {
         "type": "Int",
         "pk": true
