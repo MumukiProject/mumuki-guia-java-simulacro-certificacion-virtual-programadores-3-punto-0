@@ -2,3 +2,5 @@
 expectations:
 - binding: GestorDePaqueteDeProyectores
   inspection: DeclaresMethod:buscarPaqueteDeProyectores
+- binding: "*"
+  inspection: Except:ReturnsNull
