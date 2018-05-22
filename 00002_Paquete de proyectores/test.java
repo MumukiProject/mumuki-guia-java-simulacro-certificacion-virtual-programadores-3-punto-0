@@ -9,16 +9,16 @@ public void before() {
 @Test
 public void el_paquete_esta_en_transito() {
   pp.setEnTransito(true);
-  Assert.assertTrue(pp.getEnTransito())
+  Assert.assertTrue(pp.getEnTransito());
 }
 
 @Test
 public void el_paquete_tiene_codigo_1() {
-  Assert.assertEquals(pp.getCodPaquete(), 1)
+  Assert.assertEquals(pp.getCodPaquete(), 1);
 }
 
 @Test
 public void el_paquete_tiene_codigo_5() {
   pp.setCodPaquete(5);    
-  Assert.assertEquals(pp.getCodPaquete(), 5)
+  Assert.assertEquals(pp.getCodPaquete(), 5);
 }
