@@ -8,7 +8,7 @@ public void before() {
 
 @Test
 public void el_gestor_no_tiene_paquetes() {
-  Assert.assertEquals(0, gp.getPaquetes(), 0.5);
+  Assert.assertEquals(0, gp.getPaquetes().size(), 0.5);
 }
 
 @Test
