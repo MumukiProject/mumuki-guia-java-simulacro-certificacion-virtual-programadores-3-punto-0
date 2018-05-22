@@ -14,11 +14,11 @@ public void el_paquete_esta_en_transito() {
 
 @Test
 public void el_paquete_tiene_codigo_1() {
-  Assert.assertEquals(pp.getCodPaquete(), 1);
+  Assert.assertEquals(1, pp.getCodPaquete(), 0.5);
 }
 
 @Test
 public void el_paquete_tiene_codigo_5() {
   pp.setCodPaquete(5);    
-  Assert.assertEquals(pp.getCodPaquete(), 5);
+  Assert.assertEquals(5, pp.getCodPaquete(), 0.5);
 }
