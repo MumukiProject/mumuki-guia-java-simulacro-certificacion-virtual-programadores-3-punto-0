@@ -9,7 +9,7 @@ public void before() {
 
 @Test
 public void el_gestor_no_tiene_paquetes_y_devuelve_null() {
-  Assert.assertEquals(null, gp.buscarPaqueteDeProyectores(1), 0.5);
+  Assert.assertEquals(null, gp.buscarPaqueteDeProyectores(1));
 }
 
 @Test
