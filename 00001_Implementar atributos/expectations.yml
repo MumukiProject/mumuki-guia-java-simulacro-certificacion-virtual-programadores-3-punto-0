@@ -7,8 +7,8 @@ expectations:
 - binding: PaqueteProyectores
   inspection: DeclaresAttribute:enTransito
 - binding: codPaqueteDeProyectores
-  inspection: TypesAs:int
+  inspection: TypesAs:String
 - binding: costoEnvio
-  inspection: TypesAs:floar
+  inspection: TypesAs:float
 - binding: enTransito
   inspection: TypesAs:boolean
