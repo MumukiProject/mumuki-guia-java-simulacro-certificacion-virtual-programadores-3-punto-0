@@ -1,7 +1,7 @@
 class PaqueteProyectores {
   private String destinatario;
   private String destino;
-  // Declará las variables acá
+  // Declará los atributos acá
   
   public PaqueteProyectores(int codPaqueteDeProyectores, String destinatario, String destino, float costoEnvio) {
     this.codPaqueteDeProyectores = codPaqueteDeProyectores;
