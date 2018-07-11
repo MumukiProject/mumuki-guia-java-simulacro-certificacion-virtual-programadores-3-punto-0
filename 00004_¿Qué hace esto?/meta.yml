@@ -4,6 +4,7 @@ layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
 choices:
 - value: Me dice la cantidad de reservas de un libro
@@ -11,6 +12,6 @@ choices:
 - value: Me dice la suma de la cantidad de reservas de todas las bibliotecas
   checked: false
 - value: Me dice la suma de la cantidad de reservas de una biblioteca específica
-  checked: false
+  checked: true
 - value: Ninguna de las anteriores
   checked: false

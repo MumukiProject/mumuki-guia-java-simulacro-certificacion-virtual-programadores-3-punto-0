@@ -1,4 +1,2 @@
-@Test
-public void testDescriptionExample() {
-  Assert.assertTrue(true);
-}
+---
+equal: Me dice la suma de la cantidad de reservas de una biblioteca específica

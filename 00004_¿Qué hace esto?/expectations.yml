@@ -1,6 +1,0 @@
----
-expectations:
-- binding: Biblioteca
-  inspection: DeclaresMethod:autores
-- binding: "*"
-  inspection: Except:ReturnsNull
