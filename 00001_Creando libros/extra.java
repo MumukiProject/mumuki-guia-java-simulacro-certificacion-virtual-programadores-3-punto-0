@@ -2,7 +2,7 @@ class Biblioteca {
   private String localidad;
   private List<Libro> libros;
   
-  public Biblioteca(String localidad, ArrayList<Libro> libros) {
+  public Biblioteca(String localidad, List<Libro> libros) {
     this.localidad = localidad;
     this.libros = libros;
   }
@@ -19,7 +19,7 @@ class Biblioteca {
     return this.libros;
   }
   
-  public void setLibros(ArrayList<Libro> libros) {
+  public void setLibros(List<Libro> libros) {
     this.libros = libros;
   }
 }
