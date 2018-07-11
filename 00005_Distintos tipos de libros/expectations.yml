@@ -2,3 +2,9 @@
 expectations:
 - binding: Biblioteca
   inspection: DeclaresMethod:librosDificiles
+- binding: Divulgacion
+  inspection: DeclaresMethod:esDificilDeLeer
+- binding: Novela
+  inspection: DeclaresMethod:esDificilDeLeer
+- binding: LibroDeCuentos
+  inspection: DeclaresMethod:esDificilDeLeer

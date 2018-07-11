@@ -21,6 +21,15 @@ public void before() {
   divulgacionFacil.setTematica("anatomia")
   divulgacionMatematica.setTematica("matematica")
   divulgacionAstronomia.setTematica("astronomia")
+  
+  ArrayList<Libro> libros = new ArrayList<Libro>();
+  libros.add(novelaFacil);
+  libros.add(novelaDificil);
+  libros.add(divulgacionFacil);
+  libros.add(divulgacionMatematica);
+  libros.add(divulgacionAstronomia);
+  libros.add(cuentos);
+  biblioteca = new Biblioteca("Villa Mercedes", libros);
 }
 
 @Test
@@ -53,3 +62,12 @@ public void el_libro_de_cuentos_no_es_dificil_de_leer() {
   Assert.assertFalse(cuentos.esDificilDeLeer());
 }
 
+@Test
+public void la_biblioteca_puede_decirme_sus_libros_dificiles() {
+  ArrayList<Libro> librosDificiles = new ArrayList<Libro>(Arrays.asList(biblioteca.librosDificiles()));
+  ArrayList<Libro> expected = new ArrayList<Libro>();
+  expected.add(novelaFacil);
+  expected.add(divulgacionFacil);
+  expected.add(cuentos);
+  Assert.assertEquals(expected, librosDificiles);
+}
