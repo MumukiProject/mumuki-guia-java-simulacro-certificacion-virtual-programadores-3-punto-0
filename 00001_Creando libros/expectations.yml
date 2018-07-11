@@ -8,3 +8,19 @@ expectations:
   inspection: TypesAs:String
 - binding: cantidadDeReservas
   inspection: TypesAs:int
+- binding: titulo
+  inspection: TypesAs:String
+- binding: Libro
+  inspection: DeclaresAttribute:titulo
+- binding: Libro
+  inspection: DeclaresMethod:getAutor
+- binding: Libro
+  inspection: DeclaresMethod:setAutor
+- binding: Libro
+  inspection: DeclaresMethod:getTitulo
+- binding: Libro
+  inspection: DeclaresMethod:setTitulo
+- binding: Libro
+  inspection: DeclaresMethod:getCantidadDeReservas
+- binding: Libro
+  inspection: DeclaresMethod:setCantidadDeReservas
