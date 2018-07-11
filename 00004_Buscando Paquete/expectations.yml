@@ -1,6 +1,0 @@
----
-expectations:
-- binding: GestorDePaquetesDeProyectores
-  inspection: DeclaresMethod:buscarPaqueteDeProyectores
-- binding: "*"
-  inspection: Except:ReturnsNull
