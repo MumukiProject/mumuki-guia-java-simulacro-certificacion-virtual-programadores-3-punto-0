@@ -1,4 +1,6 @@
 ---
 expectations:
-- binding: GestorDePaquetesDeProyectores
-  inspection: DeclaresMethod:agregarPaquete
+- binding: Libro
+  inspection: DeclaresMethod:registrarReserva
+- binding: Biblioteca
+  inspection: DeclaresMethod:limpiarReservas
