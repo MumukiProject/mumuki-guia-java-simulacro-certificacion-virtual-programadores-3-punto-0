@@ -3,40 +3,37 @@ A partir del siguiente DER
 <div
   class='mu-erd'
   data-entities='{
-    "paqueteProyectores": {
-      "codPaquete": {
-        "type": "Int",
+    "libro": {
+      "id_libro": {
+        "type": "Integer",
         "pk": true
       },
-      "destino": {
-        "type": "VARCHAR(45)"
+      "titulo": {
+        "type": "Text"
       },
-      "costoEnvio": {
-        "type": "FLOAT"
+      "autor": {
+        "type": "Text"
       },
-      "destinatario": {
-        "type": "VARCHAR(45)"
+      "cantidad_reservas": {
+        "type": "Integer"
       },
-      "gestorDePaquetesDeProyectores_idGestorPaquetes": {
-        "type": "Int",
+      "id_biblioteca": {
+        "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "GestorDePaquetesDeProyectores", "column": "idGestorDePaquetes" },
+          "to": { "entity": "biblioteca", "column": "id_biblioteca" },
           "type": "many_to_one"
         }
       }
     },
-    "gestorDePaquetesDeProyectores": {
-      "idGestorDePaquetes": {
-        "type": "Int",
+    "biblioteca": {
+      "id_biblioteca": {
+        "type": "Integer",
         "pk": true
       },
-      "nombreEmpresa": {
-        "type": "VARCHAR(45)"
+      "localidad": {
+        "type": "Text"
       }
     }
   }'>
 </div>
-
-
-> Elija las opciones correctas
