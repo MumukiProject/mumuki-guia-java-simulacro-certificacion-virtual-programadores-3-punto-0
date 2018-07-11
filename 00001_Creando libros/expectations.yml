@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: Libro
+  inspection: DeclaresAttribute:autor
+- binding: Libro
+  inspection: DeclaresAttribute:cantidadDeReservas
+- binding: autor
+  inspection: TypesAs:String
+- binding: cantidadDeReservas
+  inspection: TypesAs:int
