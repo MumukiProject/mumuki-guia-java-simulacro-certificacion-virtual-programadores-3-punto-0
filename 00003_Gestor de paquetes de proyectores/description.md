@@ -1,6 +1,4 @@
-<img src="http://www.plantuml.com/plantuml/png/XL71Qkim4BpxAnQTvBGvz6fA2Ro4Nae8j3-miRTw0bkRIhAXbFvx5KMnhIIGw-pCQ6QqSXwjxxkssE5NJvvsbh-fzcp9WLW8M2oN89u4l98Bu9eIpQqpPWNYFzO4ZbIlEqt6ioYAkaNdxYX_2e0b7D8j6Brfvv-lmxn4dk5kRsdJ7GA25RnxguqAbuSxhyYJyAmeeqIHtyxzG9QGURfBGh8PMKV-mBg9R5IM5DeK06JgjErfu0gk6utYtxHKnidcgRb9jylPjV6HqOJwsg17gtdiC1rohEQmrSOCceF3PyjuyY3pOT4uxO_mdhabDCTcjtB9AL8CyNWpmHcT0TFRwUdoFFM_qJ6wLy4rsrVbb3ArJ-hD55vEHSOUkLDEBsTrazjwLWRahMgptrkHQVgk_GC0" alt="" width="auto" height="auto">
+<img src="http://www.plantuml.com/plantuml/png/TP31JiCm44Jl-OgHJsvf3bm3GYrmp0c-m4siQ2N7HlQs4aByEugRjIoYNZtxPZnpJ6mYNsRNz7IEGUqLzcqBzQZmIcT7WUrWEgWXU2RhhMgQmPcKAXK_3T32BNpgq5FYvspsSdiFWt4qch739qVoKmCyrBWk5v2Jm-g63gSOpNVbkSluPBaNIkyAXoocIeJUv2_drq1ZCSfHsQNAAKvPXPPwc__KRexcBpBnmoORhoRf8lxAR1bQ5nkCv-LZxrQ03kGvQ-R28TQBhQI-0nrkn9Dqb79lzRbyAXDIS7jnB-F_SASbiLfV7FCxj5JOZXxjH8bZ6QhUwMZzU9dT7m00" alt="" width="auto" height="auto">
 
-> Implemente el método `agregarPaquete` de la
-> clase `GestorDePaquetesDeProyectores`. El mismo 
-> deberá agregar un nuevo paquete en la lista
-> paquetes.
+> Definí el método `registrarReserva` en la clase `Libro` que suma una reserva a dicho libro.
+> También definí `limpiarReservas`, el cual pone en 0 las reservas de todos los libros de una `Biblioteca`.
