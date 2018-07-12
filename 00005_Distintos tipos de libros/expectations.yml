@@ -1,7 +1,7 @@
 ---
 expectations:
 - binding: Biblioteca
-  inspection: DeclaresMethod:librosDificiles
+  inspection: DeclaresMethod:cantidadDeLibrosDificiles
 - binding: Divulgacion
   inspection: DeclaresMethod:esDificilDeLeer
 - binding: Novela
