@@ -22,7 +22,7 @@ public void before() {
   divulgacionMatematica.setTematica("matematica");
   divulgacionAstronomia.setTematica("astronomia");
   
-  List<Libro> libros = new List<Libro>();
+  List<Libro> libros = new ArrayList<Libro>();
   libros.add(novelaFacil);
   libros.add(novelaDificil);
   libros.add(divulgacionFacil);
@@ -64,8 +64,8 @@ public void el_libro_de_cuentos_no_es_dificil_de_leer() {
 
 @Test
 public void la_biblioteca_puede_decirme_sus_libros_dificiles() {
-  List<Libro> librosDificiles = new List<Libro>(Arrays.asList(biblioteca.librosDificiles()));
-  List<Libro> expected = new List<Libro>();
+  List<Libro> librosDificiles = new ArrayList<Libro>(Arrays.asList(biblioteca.librosDificiles()));
+  List<Libro> expected = new ArrayList<Libro>();
   expected.add(novelaFacil);
   expected.add(divulgacionFacil);
   expected.add(cuentos);
