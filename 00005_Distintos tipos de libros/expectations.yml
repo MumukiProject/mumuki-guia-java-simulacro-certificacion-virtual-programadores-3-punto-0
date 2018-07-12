@@ -8,3 +8,5 @@ expectations:
   inspection: DeclaresMethod:esDificilDeLeer
 - binding: LibroDeCuentos
   inspection: DeclaresMethod:esDificilDeLeer
+- binding: "*"
+  inspection: Except:DoesTypeTest
