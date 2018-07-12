@@ -19,6 +19,7 @@ public void el_libro_tiene_autor_aldous_huxley() {
 @Test
 public void el_libro_tiene_cantidad_de_reservas_8() {
   Assert.assertEquals(8, libro.getCantidadDeReservas());
+}
 
 @Test
 public void se_puede_cambiar_la_cantidad_de_reservas_del_libro() {
