@@ -10,11 +10,7 @@ class Biblioteca {
   public String getLocalidad() {
     return this.localidad;
   }
-  
-  public void setLocalidad(String localidad) {
-    this.localidad = localidad;
-  }
-  
+
   public List<Libro> getLibros() {
     return this.libros;
   }
