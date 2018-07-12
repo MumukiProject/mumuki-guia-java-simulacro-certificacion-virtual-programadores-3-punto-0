@@ -3,6 +3,10 @@
 class Novela extends Libro {
   int cantidadDePaginas;
   
+  Novela(String titulo, String autor, int cantidadDeReservas) { 
+    super(titulo, autor, cantidadDeReservas);
+  }
+  
   int getCantidadDePaginas() {
     return this.cantidadDePaginas;
   }
@@ -19,6 +23,10 @@ class Novela extends Libro {
 class Divulgacion extends Libro {
   String tematica;
   
+  Divulgacion(String titulo, String autor, int cantidadDeReservas) { 
+    super(titulo, autor, cantidadDeReservas);
+  }
+  
   String getTematica() {
     return this.tematica;
   }
@@ -33,6 +41,11 @@ class Divulgacion extends Libro {
 }
 
 class LibroDeCuentos extends Libro {
+  
+  LibroDeCuentos(String titulo, String autor, int cantidadDeReservas) { 
+    super(titulo, autor, cantidadDeReservas);
+  }
+  
   boolean esDificilDeLeer() {
     //Completa este método
   }
