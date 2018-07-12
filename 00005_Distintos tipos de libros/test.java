@@ -11,7 +11,7 @@ public void before() {
   novelaFacil = new Novela();
   novelaDificil = new Novela();
   divulgacionFacil = new Divulgacion();
-  divulgacionMatematica = new Divulgacion());
+  divulgacionMatematica = new Divulgacion();
   divulgacionAstronomia = new Divulgacion();
   cuentos = new LibroDeCuentos();
   
