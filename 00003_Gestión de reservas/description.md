@@ -1,4 +1,4 @@
-<img src="http://www.plantuml.com/plantuml/png/TP51JyCm38Nl_HLMJjbO3rmBGXjmx0b-GTP6bQKiGR4x2I7-EsiwLowmwyjxdv-TFR7BF9v2rU8n9xCriArhCFS6dl4OCB7lN0EcIv7HHs-ggWkEIBt2LmLGGvZor42Bn8y5zZJhgNC1UzStyCuPut1HxtJSBWuGo-vAkmY7dDsdOcvAVF3SIifkbXoKHrAFYYwcoNvEs2-WCgfGT7SXpKMihFUdZwO5F7sWos-UV3uxiilZjvojXAuNO-Gn9AbL93TooYkbSv6dzgzUg0rWv39kXjaRbjrCUv2rPTyNPLSz1Kh_EMxD-7tBmpHHVOWGYmvsjTugc_s0n7cvdJxTtiT-F8KV" alt="" width="auto" height="auto">
+<img src="http://www.plantuml.com/plantuml/png/TP0zRiGW44PxJZ6YOZTsaTQAeirFwIh91LYCh94mHCnucoXtZo06OSdRyirxp7mNOXrvNPmOyHg3F4iuzpt8HmclU7KOs1ezW3J1CrflfH36QQ8cXHy1q8DBF0qm8l5JbZt_lmUZ7Kvw6k2J8_fP03oqkAeJK4QwpGOxtIcJi-Mn0EfK4QXX9bFIiZcbae8ws3OHju1J7dMuVAEE7vPil6bIDVmj1MHekvsHLnUQ0tlGAuUuUp7QSrhwtHRh0EWvVRV9rDxJxINTFKFjvIlZJIabU4cUW_UtAcmFhLlHuSIzBThwefsHEDO2s_ukra_hulu0" alt="" width="auto" height="auto">
 
 > Definí el método `registrarReserva` en la clase `Libro` que suma una reserva a dicho libro.
 > También definí `limpiarReservas`, el cual pone en 0 las reservas de todos los libros de una `Biblioteca`.
