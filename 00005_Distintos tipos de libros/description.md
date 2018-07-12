@@ -6,5 +6,8 @@ Por ejemplo:
 * los libros de divulgación son difíciles si su temática es "matematica" o "astronomia";
 * los libros de cuentos nunca son difíciles de leer.
 
+Conociendo esto ahora nuestra clase `Libro` deberá ser abstracta.
+
+> Hacer abstracta a la clase `Libro` con el método abstracto `esDificilDeLeer`.
 
 > Definí el método `esDificilDeLeer` en cada una de las subclases de `Libro`. Luego definí el método `librosDificiles` que nos devuelve los libros difíciles de leer de una `Biblioteca`.
