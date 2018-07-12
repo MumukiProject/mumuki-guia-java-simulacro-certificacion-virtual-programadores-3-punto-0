@@ -1,39 +1,39 @@
 /*...solution[2]...*/
 
-public class Novela extends Libro {
-  private int cantidadDePaginas;
+class Novela extends Libro {
+  int cantidadDePaginas;
   
-  public int getCantidadDePaginas() {
+  int getCantidadDePaginas() {
     return this.cantidadDePaginas;
   }
   
-  public void setCantidadDePaginas(int cantidadDePaginas) {
+  void setCantidadDePaginas(int cantidadDePaginas) {
     this.cantidadDePaginas = cantidadDePaginas;
   }
   
-  public boolean esDificilDeLeer() {
+  boolean esDificilDeLeer() {
     //Completa este método
   }
 }
 
-public class Divulgacion extends Libro {
-  private String tematica;
+class Divulgacion extends Libro {
+  String tematica;
   
-  public String getTematica() {
+  String getTematica() {
     return this.tematica;
   }
   
-  public void setTematica(String tematica) {
+  void setTematica(String tematica) {
     this.tematica = tematica;
   }
   
-  public boolean esDificilDeLeer() {
+  boolean esDificilDeLeer() {
     //Completa este método
   }
 }
 
-public class LibroDeCuentos extends Libro {
-  public boolean esDificilDeLeer() {
+class LibroDeCuentos extends Libro {
+  boolean esDificilDeLeer() {
     //Completa este método
   }
 }
