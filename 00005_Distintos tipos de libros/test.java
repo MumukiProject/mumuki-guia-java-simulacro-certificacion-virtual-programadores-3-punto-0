@@ -8,12 +8,12 @@ Biblioteca biblioteca;
 
 @Before
 public void before() {
-  novelaFacil = new Novela();
-  novelaDificil = new Novela();
-  divulgacionFacil = new Divulgacion();
-  divulgacionMatematica = new Divulgacion();
-  divulgacionAstronomia = new Divulgacion();
-  cuentos = new LibroDeCuentos();
+  novelaFacil = (Novela) new Libro("novela facil", "un autor de novela", 3);
+  novelaDificil = (Novela) new Libro("novela dificil", "otro autor de novela", 0);
+  divulgacionFacil = (Divulgacion) new Libro("divulgacion facil", "un autor de divulgacion", 2);
+  divulgacionMatematica = (Divulgacion) new Libro("divulgacion matematica", "un autor de divulgacion", 2);
+  divulgacionAstronomia = (Divulgacion) new Libro("divulgacion astronomia", "otro autor de divulgacion", 9);
+  cuentos = (LibroDeCuentos) new Libro("cuentos", "un autor de cuentos", 1);
   
   novelaFacil.setCantidadDePaginas(200);
   novelaDificil.setCantidadDePaginas(1000);
