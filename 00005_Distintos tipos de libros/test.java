@@ -63,11 +63,6 @@ public void el_libro_de_cuentos_no_es_dificil_de_leer() {
 }
 
 @Test
-public void la_biblioteca_puede_decirme_sus_libros_dificiles() {
-  List<Libro> librosDificiles = new ArrayList<Libro>(Arrays.asList(biblioteca.librosDificiles()));
-  List<Libro> expected = new ArrayList<Libro>();
-  expected.add(novelaFacil);
-  expected.add(divulgacionFacil);
-  expected.add(cuentos);
-  Assert.assertEquals(expected, librosDificiles);
+public void la_biblioteca_puede_cuantos_libros_dificiles_tiene() {
+  Assert.assertEquals(3, biblioteca.cantidadDeLibrosDificiles());
 }
