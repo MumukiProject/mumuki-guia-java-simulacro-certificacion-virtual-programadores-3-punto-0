@@ -18,9 +18,9 @@ public void before() {
   novelaFacil.setCantidadDePaginas(200);
   novelaDificil.setCantidadDePaginas(1000);
   
-  divulgacionFacil.setTematica("anatomia")
-  divulgacionMatematica.setTematica("matematica")
-  divulgacionAstronomia.setTematica("astronomia")
+  divulgacionFacil.setTematica("anatomia");
+  divulgacionMatematica.setTematica("matematica");
+  divulgacionAstronomia.setTematica("astronomia");
   
   ArrayList<Libro> libros = new ArrayList<Libro>();
   libros.add(novelaFacil);
