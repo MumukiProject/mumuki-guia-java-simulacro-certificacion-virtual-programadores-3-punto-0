@@ -14,9 +14,9 @@ INSERT INTO biblioteca VALUES
 
 
 INSERT INTO libro VALUES 
-(1, "fundacion", "Isaac Asimov", 5, 1),
+(1, "fundacion", "Isaac Asimov", 5, 200),
 (2, "farenheit 451", "Ray Bradbury", 3, 1),
-(3, "un mundo feliz", "Aldous Huxley", 2, 1),
-(4, "1984", "George Orwell", 1, 2),
-(5, "odessa", "Frederick Forsyth", 5, 3);
+(3, "un mundo feliz", "Aldous Huxley", 2, 101),
+(4, "1984", "George Orwell", 1, 200),
+(5, "odessa", "Frederick Forsyth", 5, 300);
 
