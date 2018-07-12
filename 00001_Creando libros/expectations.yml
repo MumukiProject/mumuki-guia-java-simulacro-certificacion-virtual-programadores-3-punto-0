@@ -15,11 +15,7 @@ expectations:
 - binding: Libro
   inspection: DeclaresMethod:getAutor
 - binding: Libro
-  inspection: DeclaresMethod:setAutor
-- binding: Libro
   inspection: DeclaresMethod:getTitulo
-- binding: Libro
-  inspection: DeclaresMethod:setTitulo
 - binding: Libro
   inspection: DeclaresMethod:getCantidadDeReservas
 - binding: Libro
