@@ -18,5 +18,5 @@ INSERT INTO libro VALUES
 (2, "farenheit 451", "Ray Bradbury", 3, 1),
 (3, "un mundo feliz", "Aldous Huxley", 2, 1),
 (4, "1984", "George Orwell", 1, 2),
-(5, "odessa", "Frederick Forsyth", 5, 3),
+(5, "odessa", "Frederick Forsyth", 5, 3);
 
