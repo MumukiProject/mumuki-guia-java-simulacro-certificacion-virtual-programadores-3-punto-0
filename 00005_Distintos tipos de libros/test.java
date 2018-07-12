@@ -22,7 +22,7 @@ public void before() {
   divulgacionMatematica.setTematica("matematica");
   divulgacionAstronomia.setTematica("astronomia");
   
-  ArrayList<Libro> libros = new ArrayList<Libro>();
+  ArrayList<Libro> libros = new List<Libro>();
   libros.add(novelaFacil);
   libros.add(novelaDificil);
   libros.add(divulgacionFacil);
