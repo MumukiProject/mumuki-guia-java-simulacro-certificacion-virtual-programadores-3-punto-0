@@ -2,7 +2,7 @@ class Biblioteca {
   String localidad;
   List<Libro> libros;
   
-  public Biblioteca(String localidad, List<Libro> libros) {
+  Biblioteca(String localidad, List<Libro> libros) {
     this.localidad = localidad;
     this.libros = libros;
   }
