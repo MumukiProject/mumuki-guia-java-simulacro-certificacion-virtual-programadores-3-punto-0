@@ -10,3 +10,5 @@ expectations:
   inspection: DeclaresMethod:esDificilDeLeer
 - binding: "*"
   inspection: Except:DoesTypeTest
+- binding: Libro
+  inspection: DeclaresMethod:esDificilDeLeer
