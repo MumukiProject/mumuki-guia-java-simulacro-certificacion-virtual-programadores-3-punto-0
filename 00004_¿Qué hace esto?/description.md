@@ -2,10 +2,7 @@
 
 ```java
 public int reservas() {
-  return libros
-    .stream()
-    .mapToInt(algo -> algo.getCantidadDeReservas())
-    .sum();
+  return libros.stream().mapToInt(algo -> algo.getCantidadDeReservas()).sum();
 }
 ```
 
