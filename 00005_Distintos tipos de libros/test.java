@@ -24,7 +24,7 @@ public void before() {
   
   divulgacionFacil.setTematica("anatomia");
   divulgacionMatematica.setTematica("matematica");
-  divulgacionMatematica.setTematica("matemática");
+  divulgacionMatematica2.setTematica("matemática");
   divulgacionAstronomia.setTematica("astronomia");
   divulgacionAstronomia2.setTematica("astronomía");
   
