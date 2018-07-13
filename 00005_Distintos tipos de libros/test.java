@@ -34,6 +34,8 @@ public void before() {
   libros.add(divulgacionFacil);
   libros.add(divulgacionMatematica);
   libros.add(divulgacionAstronomia);
+  libros.add(divulgacionMatematica2);
+  libros.add(divulgacionAstronomia2);
   libros.add(cuentos);
   biblioteca = new Biblioteca("Villa Mercedes", libros);
 }
