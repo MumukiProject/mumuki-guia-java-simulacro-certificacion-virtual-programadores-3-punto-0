@@ -3,7 +3,7 @@ Como todos sabemos, hay distintos tipos de libros. Según ese tipo podemos decir
 Por ejemplo:
 
 * Las novelas son difíciles de leer si tienen más de 500 páginas;
-* los libros de divulgación son difíciles si su temática es "matematica" o "astronomia";
+* los libros de divulgación son difíciles si su temática es "matemática" o "astronomía";
 * los libros de cuentos nunca son difíciles de leer.
 
 Conociendo esto ahora nuestra clase `Libro` deberá ser abstracta.

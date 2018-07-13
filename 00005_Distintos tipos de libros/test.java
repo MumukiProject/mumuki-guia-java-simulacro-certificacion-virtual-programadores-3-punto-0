@@ -2,7 +2,9 @@ Novela novelaFacil;
 Novela novelaDificil;
 Divulgacion divulgacionFacil;
 Divulgacion divulgacionMatematica;
+Divulgacion divulgacionMatematica2;
 Divulgacion divulgacionAstronomia;
+Divulgacion divulgacionAstronomia2;
 LibroDeCuentos cuentos;
 Biblioteca biblioteca;
 
@@ -12,7 +14,9 @@ public void before() {
   novelaDificil = new Novela("novela dificil", "otro autor de novela", 0);
   divulgacionFacil = new Divulgacion("divulgacion facil", "un autor de divulgacion", 2);
   divulgacionMatematica = new Divulgacion("divulgacion matematica", "un autor de divulgacion", 2);
+  divulgacionMatematica2 = new Divulgacion("divulgacion matemática", "un autor de divulgacion", 2);
   divulgacionAstronomia = new Divulgacion("divulgacion astronomia", "otro autor de divulgacion", 9);
+  divulgacionAstronomia2 = new Divulgacion("divulgacion astronomía", "otro autor de divulgacion", 9);
   cuentos = new LibroDeCuentos("cuentos", "un autor de cuentos", 1);
   
   novelaFacil.setCantidadDePaginas(200);
@@ -20,7 +24,9 @@ public void before() {
   
   divulgacionFacil.setTematica("anatomia");
   divulgacionMatematica.setTematica("matematica");
+  divulgacionMatematica.setTematica("matemática");
   divulgacionAstronomia.setTematica("astronomia");
+  divulgacionAstronomia2.setTematica("astronomía");
   
   List<Libro> libros = new ArrayList<Libro>();
   libros.add(novelaFacil);
@@ -49,12 +55,12 @@ public void la_divulgacionFacil_no_es_dificil_de_leer() {
 
 @Test
 public void la_divulgacionMatematica_es_dificil_de_leer() {
-  Assert.assertTrue(divulgacionMatematica.esDificilDeLeer());
+  Assert.assertTrue(divulgacionMatematica.esDificilDeLeer() || divulgacionMatematica2.esDificilDeLeer() );
 }
 
 @Test
 public void la_divulgacionAstronomia_es_dificil_de_leer() {
-  Assert.assertTrue(divulgacionAstronomia.esDificilDeLeer());
+  Assert.assertTrue(divulgacionAstronomia.esDificilDeLeer() || divulgacionAstronomia2.esDificilDeLeer() );
 }
 
 @Test
