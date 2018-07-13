@@ -3,7 +3,7 @@ A partir del siguiente DER
 <div
   class='mu-erd'
   data-entities='{
-    "libro": {
+    "libros": {
       "id_libro": {
         "type": "Integer",
         "pk": true
@@ -26,7 +26,7 @@ A partir del siguiente DER
         }
       }
     },
-    "biblioteca": {
+    "bibliotecas": {
       "id_biblioteca": {
         "type": "Integer",
         "pk": true
