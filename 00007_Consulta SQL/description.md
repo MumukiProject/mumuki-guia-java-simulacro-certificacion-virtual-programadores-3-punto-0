@@ -3,7 +3,7 @@ Dado el DER presentado
 <div
   class='mu-erd'
   data-entities='{
-    "libro": {
+    "libros": {
       "id_libro": {
         "type": "Integer",
         "pk": true
@@ -26,7 +26,7 @@ Dado el DER presentado
         }
       }
     },
-    "biblioteca": {
+    "bibliotecas": {
       "id_biblioteca": {
         "type": "Integer",
         "pk": true
@@ -38,4 +38,4 @@ Dado el DER presentado
   }'>
 </div>
 
-> Escriba una consulta SQL que liste los autores más leidos de 'San Luis'. Estos son los que tienen algún libro con más de  100 reservas.
+> Escribí una consulta SQL que liste los autores más leidos de 'San Luis'. Estos son los que tienen algún libro con más de  100 reservas.
