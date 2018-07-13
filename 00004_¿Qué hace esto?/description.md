@@ -6,4 +6,4 @@ public int reservas() {
 }
 ```
 
-> Indique cuál de las siguientes opciones responde a la pregunta inicial.
+> Indicá cuál de las siguientes opciones responde a la pregunta inicial.
