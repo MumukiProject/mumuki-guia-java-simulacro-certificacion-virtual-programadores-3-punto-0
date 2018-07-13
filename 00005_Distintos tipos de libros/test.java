@@ -55,12 +55,12 @@ public void la_divulgacionFacil_no_es_dificil_de_leer() {
 
 @Test
 public void la_divulgacionMatematica_es_dificil_de_leer() {
-  Assert.assertTrue(divulgacionMatematica.esDificilDeLeer() || divulgacionMatematica2.esDificilDeLeer() );
+  Assert.assertTrue(divulgacionMatematica.esDificilDeLeer());
 }
 
 @Test
 public void la_divulgacionAstronomia_es_dificil_de_leer() {
-  Assert.assertTrue(divulgacionAstronomia.esDificilDeLeer() || divulgacionAstronomia2.esDificilDeLeer() );
+  Assert.assertTrue(divulgacionAstronomia.esDificilDeLeer());
 }
 
 @Test
