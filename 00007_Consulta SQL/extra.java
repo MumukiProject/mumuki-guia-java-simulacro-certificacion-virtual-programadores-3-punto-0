@@ -5,7 +5,7 @@ CREATE TABLE libros (id_libro INTEGER PRIMARY KEY,
   autor TEXT,
   cantidad_reservas INTEGER,
   id_biblioteca INTEGER,
-  FOREIGN KEY (id_biblioteca) REFERENCES biblioteca(id_biblioteca));
+  FOREIGN KEY (id_biblioteca) REFERENCES bibliotecas(id_biblioteca));
 
 INSERT INTO bibliotecas VALUES
 (1, "San Luis"), 
