@@ -12,11 +12,11 @@
     <section>
         <nav
           <ul>
-            <li>Cuentos de la selva</li>
-            <li>Yo, robot</li>
-            <li>El principito</li>
-            <li>Flores para Algernon</li>
-            <li>Una épica de los últimos instantes</li>
+            <li class="texto-verde">Cuentos de la selva</li>
+            <li class="texto-verde">Yo, robot</li>
+            <li class="texto-verde">El principito</li>
+            <li class="texto-verde">Flores para Algernon</li>
+            <li class="texto-verde">Una épica de los últimos instantes</li>
           </ul>
         </nav> 
     </section>
