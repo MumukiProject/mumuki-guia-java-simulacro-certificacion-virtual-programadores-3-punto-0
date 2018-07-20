@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: html/body/section/nav
+  inspection: DeclaresTag:ul
+- binding: html/body/section/nav/ul
+  inspection: DeclaresTag:li
