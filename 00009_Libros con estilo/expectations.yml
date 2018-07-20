@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: css:texto-verde
+- binding: css:.texto-verde
   inspection: DeclaresStyle:green
