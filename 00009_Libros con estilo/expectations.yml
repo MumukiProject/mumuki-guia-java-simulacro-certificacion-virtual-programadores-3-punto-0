@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: css:texto-verde
+  inspection: DeclaresStyle:green
