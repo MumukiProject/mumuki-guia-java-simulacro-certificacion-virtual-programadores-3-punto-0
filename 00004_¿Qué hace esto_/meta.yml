@@ -15,3 +15,4 @@ choices:
   checked: true
 - value: Ninguna de las anteriores
   checked: false
+name: "¿Qué hace esto?"

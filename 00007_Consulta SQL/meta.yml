@@ -7,3 +7,4 @@ extra_visible: false
 language: sqlite
 manual_evaluation: false
 choices: []
+name: Consulta SQL
