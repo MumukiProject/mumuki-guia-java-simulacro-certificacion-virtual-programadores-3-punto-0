@@ -4,7 +4,7 @@ Tenemos del siguiente modelo:
 
 Como se ve más abajo la clase `Biblioteca` ya está definida, pero no la clase `Libro`.
 
-> Crea la clase  `Libro` con los atributos `titulo`, `autor` y `cantidadDeReservas` que son un `String`, otro `String` y un `int` respectivamente. 
+> Creá la clase  `Libro` con los atributos `titulo`, `autor` y `cantidadDeReservas` que son un `String`, otro `String` y un `int` respectivamente. 
 
 > Definí un constructor para la clase. 
 
