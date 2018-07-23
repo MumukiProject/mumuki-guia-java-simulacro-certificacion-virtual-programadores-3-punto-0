@@ -8,4 +8,4 @@ Como se ve más abajo la clase `Biblioteca` ya está definida, pero no la clase 
 
 > Definí un constructor para la clase. 
 
-> Por último crea los los getters para todos estos atributos y un setter para `cantidadDeReservas`.
+> Por último, creá los getters para todos estos atributos y un setter para `cantidadDeReservas`.
