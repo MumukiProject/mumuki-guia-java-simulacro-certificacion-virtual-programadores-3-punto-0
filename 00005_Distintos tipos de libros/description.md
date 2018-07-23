@@ -8,6 +8,6 @@ Por ejemplo:
 
 Conociendo esto ahora nuestra clase `Libro` deberá ser abstracta.
 
-> Hacer abstracta a la clase `Libro` con el método abstracto `esDificilDeLeer`.
+> Hacé abstracta a la clase `Libro` con el método abstracto `esDificilDeLeer`.
 
-> Definí el método `esDificilDeLeer` en cada una de las subclases de `Libro`. Luego definí el método `cantidadDeLibrosDificiles` que nos devuelve un `long` con cuantos libros difíciles de leer tiene una `Biblioteca`.
+> Definí el método `esDificilDeLeer` en cada una de las subclases de `Libro`. Luego, definí el método `cantidadDeLibrosDificiles` que nos devuelve un `long` con cuántos libros difíciles de leer tiene una `Biblioteca`.
