@@ -21,7 +21,7 @@ Dado el DER presentado
         "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "biblioteca", "column": "id_biblioteca" },
+          "to": { "entity": "bibliotecas", "column": "id_biblioteca" },
           "type": "many_to_one"
         }
       }
