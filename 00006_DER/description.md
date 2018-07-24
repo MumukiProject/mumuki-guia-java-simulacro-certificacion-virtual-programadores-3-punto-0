@@ -25,6 +25,15 @@ A partir del siguiente DER
           "type": "many_to_one"
         }
       }
+    },
+    "bibliotecas": {
+      "id_biblioteca": {
+        "type": "Integer",
+        "pk": true
+      },
+      "localidad": {
+        "type": "Text"
+      }
     }
   }'>
 </div>
