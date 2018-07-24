@@ -10,6 +10,12 @@ A partir del siguiente DER
       },
       "titulo": {
         "type": "Text"
+      },
+      "autor": {
+        "type": "Text"
+      },
+      "cantidad_reservas": {
+        "type": "Integer"
       }
     },
     "bibliotecas": {
