@@ -16,6 +16,14 @@ A partir del siguiente DER
       },
       "cantidad_reservas": {
         "type": "Integer"
+      },
+      "id_biblioteca": {
+        "type": "Integer",
+        "pk": false,
+        "fk": {
+          "to": { "entity": "bibliotecas", "column": "id_biblioteca" },
+          "type": "many_to_one"
+        }
       }
     },
     "bibliotecas": {
