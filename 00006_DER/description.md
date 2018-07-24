@@ -37,5 +37,3 @@ A partir del siguiente DER
     }
   }'>
 </div>
-
-> Elegí las opciones correctas
