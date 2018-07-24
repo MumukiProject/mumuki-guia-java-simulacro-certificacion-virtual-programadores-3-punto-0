@@ -3,6 +3,15 @@ A partir del siguiente DER
 <div
   class='mu-erd'
   data-entities='{
+    "libros": {
+      "id_libro": {
+        "type": "Integer",
+        "pk": true
+      },
+      "titulo": {
+        "type": "Text"
+      }
+    },
     "bibliotecas": {
       "id_biblioteca": {
         "type": "Integer",
