@@ -1,4 +1,4 @@
-Copyright Ministerio de Producción and contributors
+Copyright Gustavo Trucco and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
