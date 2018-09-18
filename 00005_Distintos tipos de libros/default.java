@@ -14,10 +14,6 @@ class Novela extends Libro {
   void setCantidadDePaginas(int cantidadDePaginas) {
     this.cantidadDePaginas = cantidadDePaginas;
   }
-  
-  boolean esDificilDeLeer() {
-    //Completa este método
-  }
 }
 
 class Divulgacion extends Libro {
@@ -34,19 +30,11 @@ class Divulgacion extends Libro {
   void setTematica(String tematica) {
     this.tematica = tematica;
   }
-  
-  boolean esDificilDeLeer() {
-    //Completa este método
-  }
 }
 
 class LibroDeCuentos extends Libro {
   
   LibroDeCuentos(String titulo, String autor, int cantidadDeReservas) { 
     super(titulo, autor, cantidadDeReservas);
-  }
-  
-  boolean esDificilDeLeer() {
-    //Completa este método
   }
 }

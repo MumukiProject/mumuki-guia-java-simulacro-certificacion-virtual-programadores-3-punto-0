@@ -10,4 +10,6 @@ Conociendo esto ahora nuestra clase `Libro` deberá ser abstracta.
 
 > Hacé abstracta a la clase `Libro` con el método abstracto `esDificilDeLeer`.
 
-> Definí el método `esDificilDeLeer` en cada una de las subclases de `Libro`. Luego, definí el método `cantidadDeLibrosDificiles` que nos devuelve un `long` con el número de libros difíciles de leer que tiene una `Biblioteca`.
+> Definí el método `esDificilDeLeer` en cada una de las subclases de `Libro`. Luego, 
+
+> Definí el método `cantidadDeLibrosDificiles` que nos dice el número de libros difíciles de leer que tiene una `Biblioteca`. Tené en cuenta que este método debe retornar un `long`.
