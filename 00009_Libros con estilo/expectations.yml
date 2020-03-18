@@ -1,4 +1,5 @@
 ---
 expectations:
-- binding: css:.texto-verde
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.texto-verde
   inspection: DeclaresStyle:color:green

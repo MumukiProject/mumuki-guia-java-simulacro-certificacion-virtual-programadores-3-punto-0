@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: html/body/section/nav
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/nav
   inspection: DeclaresTag:ul
-- binding: html/body/section/nav/ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/nav/ul
   inspection: DeclaresTag:li

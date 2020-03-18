@@ -1,22 +1,32 @@
 ---
 expectations:
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresAttribute:autor
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresAttribute:cantidadDeReservas
-- binding: autor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: autor
   inspection: TypesAs:String
-- binding: cantidadDeReservas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadDeReservas
   inspection: TypesAs:int
-- binding: titulo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: titulo
   inspection: TypesAs:String
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresAttribute:titulo
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresMethod:getAutor
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresMethod:getTitulo
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresMethod:getCantidadDeReservas
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresMethod:setCantidadDeReservas
